@@ -42,7 +42,7 @@ function onSuccess(position) {
         document.getElementById("try").innerHTML = `<h1 style='font-size: 45px; font-weight: bold; text-align: center; margin-top: 300px;'>The Nearest Hospital Is Mecidiyeköy</h1>`;
     }
     else if (ata < mecid && ata < pend) {
-        document.getElementById("try").innerHTML = `<h1 style='font-size: 45px; font-weight: bold; text-align: center; margin-top: 300px;'>MERHABA CEMİL ABİ HASANIN SELAMI VARMIŞ</h1>`;
+        document.getElementById("try").innerHTML = `<h1 style='font-size: 45px; font-weight: bold; text-align: center; margin-top: 300px;'>The Nearest Hospital Is Ataşehir</h1>`;
     }
     else if (pend < mecid && pend < ata) {
         document.getElementById("try").innerHTML = `<h1 style='font-size: 45px; font-weight: bold; text-align: center; margin-top: 300px;'>The Nearest Hospital Is Pendik</h1>`;
